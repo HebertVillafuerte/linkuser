@@ -170,8 +170,49 @@
     }
 
 @media only screen and (max-width: 1440px){
+
     .containertwo{
-      width: 600px;
+      width: 400px;
       height: 100vh;
 }
+    .containerthree{
+        position: absolute;
+        width: 520px;
+        right: 0;
+
+    }
+    
+    .textaporte{
+        font-size: 22px
+    }
+    
+    .curso{
+        width: 500px;
+
+    }
+    .contaport{
+        width: 95%
+    }
+}
+
+@media only screen and (max-width: 1260px){
+    *{
+    }
+    .containerall{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .containertwo{
+      display: block;
+      width: 500px;
+      position: relative;
+}  
+    
+    .containerthree{
+        display: none;
+    }
+        
+
 }
