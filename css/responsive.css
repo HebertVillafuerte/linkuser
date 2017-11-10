@@ -1,0 +1,177 @@
+@media only screen and (max-width: 500px){
+      /*todo sobre el header*/
+    .header{
+        height: 40px;
+      }
+
+    .logo{
+        width: 90px;
+        margin: 7px 11px;
+      }
+    
+    .logo1{
+        width: 80px;
+      }
+
+    .puntos{
+        position: absolute;
+        width: 99%;
+        height: 20px;
+        border-radius: 5px;
+        background:transparent;
+        bottom:20px;
+        display:flex;
+        justify-content:space-between;
+        }
+    .puntostxt{
+        color: white;
+        padding: 10px;
+        font-size: 15px;
+        width:100px;
+        line-height: 15px;
+        text-align: center
+    }
+      /*todo sobre el header*/
+    .containertwo{
+        display: flex;
+      }
+    .portada{
+        background-image: url(../img/portada.png);
+        background-size: 100%;
+        position: relative;
+        background-color: blue;
+        
+    }
+    
+
+    .containerone{
+        border: 1px solid blue;
+      }
+
+    .contdeone{
+        border: 1px solid green;
+      }
+    .portadapri{
+        height: 250px;
+    }
+    
+    .containerportada{
+      background: rgba(28, 54, 67,0.4);
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      height: 250px;
+      display: flex;
+      align-items: center;
+    }
+
+    .profile11{
+        width: 100px;
+        height: auto;
+      }
+
+    .profile12{
+        width: 100px;
+        height: auto;
+      }
+    
+    .containerall{
+        display:block;     
+        border: 1px solid green;
+        height: 1650px;
+    }
+    .contdeone{
+        display: none;
+    }
+    .containertwo{
+      width:100%;
+      height: 100vh;
+      display: block;
+    }
+    .carreras{
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    .contcar{
+        display: block;
+        margin: auto;
+    }
+    .contcar2{
+        display: block;
+        margin: auto;
+        width: 100%; 
+    }
+    .carrera{
+        display: block;
+        margin: 10px auto;
+    }
+    .
+    .cursos{
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        border: 1px solid red;
+    }
+    
+    .contcurs{
+        width: 100%;
+    }
+    
+    .contcurs2{
+        display: block;
+        width: 100%;     
+        height: 80px;
+        margin: 50px auto;
+    }
+    
+    .contcurs3{
+        display: block;
+        width: 95%;     
+        height: 80px;
+        margin: 50px auto;
+    }
+    .curso{
+        position: static;
+        width: 100%;
+        height: 100px; 
+        margin: 0;
+    }
+    .logocur11{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .btn{
+        display: block;
+        margin: 15px auto;
+        
+    }
+    
+    
+    
+    .containerthree{
+        position: absolute;
+        display: block;
+        width: 100%;
+        position:static;
+        background: red;
+        margin: auto;
+        top: 0;
+        display: none;
+        
+    }
+    
+    .aportes{
+        border: 1px solid blue;
+        display: block;
+    }
+    }
+
+@media only screen and (max-width: 1440px){
+    .containertwo{
+      width: 600px;
+      height: 100vh;
+}
+}

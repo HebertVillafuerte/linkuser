@@ -1,15 +1,13 @@
-// ------------------------
-
 $(document).ready(function(){
 
-	$("#banner").css({"height":"650px"});
+	$("#banner").css({"height":"250px"});
 
 	var flag = false;
 	var scroll;
 
 	$(window).scroll(function(){
 		scroll = $(window).scrollTop();
-		if(scroll > 400){
+		if(scroll > 200){
 			if(!flag){
         $("#profile").css({"position":"fixed","transition":"all 0.5s","top":"35px","left":"25px","color":"white"})
 				$("#containerone").css({"position":"fixed","left":"0","top":"0","transition":"all 0.4s","background":"#1c3643"})
@@ -28,9 +26,9 @@ $(document).ready(function(){
 
 		}else{
 			if(flag){
-        $("#profile").css({"position":"relative","transition":"all 0.4s","top":"0","left":"250px","color":"black"})
+                $("#profile").css({"position":"relative","transition":"all 0.4s","top":"0","left":"0","color":"black"})
 				$("#containerone").css({"position":"relative","top":"0","left":"0","transition":"all 0.5s","background":"none"})
-				$("#puntos").css({"position":"relative","transition":"all 0.3s","bottom":"0","left":"-120px","display":"flex",
+				$(".puntos").css({"position":"relative","transition":"all 0.3s","display":"none",
 				"background":"white","height":"20","width":"500px"})
 
 				$(".puntostxt").css({"padding":"12px","font-size":"15px","color":"black","border-bottom":"none","line-height":"1px"})
@@ -46,3 +44,7 @@ $(document).ready(function(){
 	});
 
 });
+    
+
+
+
